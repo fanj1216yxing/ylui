@@ -3,12 +3,12 @@ YL.static = {
   softwareName: 'Neko的桌面~', //网站名。请在此处填写您自己的网站名，如王小明的博客。
   version: "2.3.3", // 网站版本号
   iconBtnStart: 'html5', //主图标
-  author: 'null',//作者
-  contactInformation: 'null',//联系方式
-  officialWebsite: '//null',//软件官网
+  author: 'Neko',//作者
+  contactInformation: '没有',//联系方式
+  officialWebsite: '没有',//软件官网
   welcome: "欢迎光临~",//加载完毕控制台提示信息
-  copyrightDetail: 'null',//版权详细信息
-  otherStatements: '',//其他信息（可留空）
+  copyrightDetail: '假装授权了233',//版权详细信息
+  otherStatements: 'Neko酱只想在这个世界上多呆一会，她又有什么错呢？',//其他信息（可留空）
 
   /**————————————————————————————————————————————————————————————————————————————————————————————*/
   /** YLUI基础设置 */
@@ -20,8 +20,8 @@ YL.static = {
   beforeOnloadEnable: true,//启用关闭前询问（打包app时请关闭防止出错）
   WarningPerformanceInIE: true,//在IE下提示体验不佳信息
   languages: {}, //推荐留空，自动从文件加载
-  changeable: true,//存档数据是否可被普通用户修改
-  dataCenter: true,//是否展示数据管理中心
+  changeable: false,//存档数据是否可被普通用户修改
+  dataCenter: false,//是否展示数据管理中心
 
   /**————————————————————————————————————————————————————————————————————————————————————————————*/
   /** YLUI注册信息 */
